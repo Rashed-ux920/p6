@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --main-f: hsl(158, 36%, 37%);
+    --main-bg: hsl(34, 47%, 97%);
+    --color-for-p:hsl(228, 12%, 48%);
+    --f-sizefor-p: 14px;
+    --bg-for-text: hsl(0, 0%, 100%);
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: var(--main-bg);
+}
+.position{
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    margin-top: 5em;
+}
+.img{
+    width: 18em;
+    height: 23em;
+}
+
+img{
+    width: inherit;
+    height: inherit;
+    
+}
+.card{
+    background: var(--bg-for-text);
+
+    height: max-content; 
+}
+.aline{
+    margin: 15px;
+   
+}
+.fcolor{
+    letter-spacing: 5px;
+    color: var(--main-f);
+    font-weight: 500;
+    font-family: 'Montserrat',sans-serif;
+    margin-bottom: 0.5em;
+}
+.discreption{
+    color: var(--color-for-p);
+    font-family: 'Fraunces',sans-serif;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.discreption span{
+    text-transform: capitalize;
+    font-size: var(--f-sizefor-p);
+    font-weight: 700;
+}
+.prices{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+.prices h1{
+    color: var(--main-f);
+}
+.prices h3{
+    text-decoration: line-through;
+    color: var(--color-for-p);
+}
+.goods{
+    color: var(--bg-for-text);
+    background: var(--main-f);
+    display: flex;
+    justify-content: center;
+    font-weight: 100;
+    font-family: 'Fraunces',sans-serif;
+    border-radius: 5px;
+    padding: 10px;
+}
+.letter{
+    text-transform: capitalize;
+}
